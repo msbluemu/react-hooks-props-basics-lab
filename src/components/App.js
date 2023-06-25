@@ -11,8 +11,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
+      <Home color="purple" name="Iris" city="Sydney"/>
+      <About bio="Hello World" github="https://github.com/msbluemu" linkedin="https://www.linkedin.com/in/qianyun-mu-06764912a/"/>
     </div>
   );
 }
